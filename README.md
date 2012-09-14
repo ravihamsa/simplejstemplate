@@ -12,5 +12,5 @@ Logic-less
 1. HandleBars
 2. Moustache
 
-with-Login
+with-Logic
 1. Embedded JS
