@@ -18,7 +18,7 @@ var getTemplated = function (template, data) {
         var varname = vars[i];
         if (varname) {
             //trim spaces and {} from varname
-            var trimmedvarname = varname.replace(/[{}s]/gi, '');
+            var trimmedvarname = varname.replace(/[{}]/gi, '');
 
             if (data[trimmedvarname] !== null && data[trimmedvarname] !== undefined) {
                 //if data available push data
