@@ -31,4 +31,4 @@ var getTemplated = function (template, data) {
         }
     }
     return output.join('');
-}
+};
